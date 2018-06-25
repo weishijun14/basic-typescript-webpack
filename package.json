@@ -1,0 +1,30 @@
+{
+  "name": "basic-typescript-webpack",
+  "version": "1.0.0",
+  "description": "Test for typescript with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weishijun14/basic-typescript-webpack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weishijun14/basic-typescript-webpack/issues"
+  },
+  "homepage": "https://github.com/weishijun14/basic-typescript-webpack#readme",
+  "devDependencies": {
+    "@types/lodash": "^4.14.110",
+    "ts-loader": "^4.4.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
